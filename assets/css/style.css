@@ -399,7 +399,7 @@ a:hover{
 .main-box.media-entertainment .main-box-title h1 {
 
     font-size: 35px;
-	color: #555;
+	color: #ffa3b7;
 }
 
 
@@ -413,7 +413,7 @@ a:hover{
 }
 
 .main-box.media-entertainment .main-box-description p{
-	color: #555;
+	color: #ffa3b7;
 }
 
 .main-box.commodity-trading {
@@ -443,6 +443,7 @@ a:hover{
     height: 38vh;
     top: 10%;
     left: 66%;
+    background:#ffa3b7;
 
 }
 
