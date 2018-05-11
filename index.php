@@ -11,6 +11,10 @@
 		</a>
 	</div>
 
+	<div class="logo-box">
+		<img src="assets/images/logo.png" alt="">
+	</div>
+
 	<div class="main-blocks">
 		<div class="main-box investment-banking">
 			<div class="main-box-title">
