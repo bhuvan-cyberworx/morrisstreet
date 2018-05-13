@@ -22,17 +22,21 @@ a:hover{
     border-left: 2px solid #eee;
     width: 31rem;
     position: absolute;
-	z-index: 10;
+	z-index: 63;
 	transition: 0.5s;
-	box-shadow: -0.05rem 0 1.05rem #9e837a;
+	
 }
 .main-menu{
-	right: -50%;
+	-webkit-transform: translate(31rem,0);
+    transform: translate(31rem,0);
+    right: 0;
+    box-shadow: 0;
 }
 .menu-list.list-unstyled {
     max-width: 100%;
     max-height: 100%;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 .sub {
 
@@ -62,7 +66,10 @@ a:hover{
     text-align: right;
     padding-right: 15px;
     position: relative;
-
+    -webkit-transform: translate(6.25rem, 0);
+    transform: translate(6.25rem, 0);
+    transition: all .2s;
+    opacity: 0
 }
 
 .menu-item a:before {
@@ -90,17 +97,19 @@ a:hover{
 	color: #333;
 }
 
-.menu-item:hover .sub{
+.menu-item a:hover ~ .sub{
 	opacity: 1;
 	margin-top: 0;
 }
 .menu-open{
-	right: 0%;
+	-webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    box-shadow: -0.7rem 0 3.125rem #94776d;
 }
 
 #nav-icon3:hover {
 
-    transform: rotate3d(0,0,1,-270deg);
+    transform: rotate3d(0,0,1,-90deg);
 
 }
 
@@ -125,9 +134,9 @@ a:hover{
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
-    top: 15px;
+    top: 30px;
     right: 20px;
-    z-index: 21;
+    z-index: 65;
 }
 
 #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
@@ -210,7 +219,7 @@ a:hover{
 	height: 100vh;
 	width: 100vw;
 	overflow: hidden;
-	transition: 0.25s;
+	transition: 0.5s;
 }
 .main-wrapper{
 	margin-left:0rem;
@@ -220,7 +229,7 @@ a:hover{
 .shift-left{
 	margin-left: -31rem;
 	background: #fff;
-	opacity: 0.6;
+	opacity: 1;
 }
 
 .float-button {
@@ -236,15 +245,16 @@ a:hover{
 
     color: #fff;
     text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 2px;
-    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 600;
 }
 .contact-button{
 	transform: rotate(270deg);
 	top: 50%;
 	left: -4%;
 	background: #fff;
+    z-index: 1;
 	
 }
 .contact-button a{
@@ -274,15 +284,17 @@ a:hover{
 
 .press-release-wrapper {
     position: fixed;
-    bottom: -20%;
+    bottom: -18%;
     background: #fff;
-    height: 20%;
+    height: 18%;
     transition: 0.5s;
     border-top: 1px solid #eee;
     right: 0;
+    width: 100%;
+    z-index: 51;
 }
 .press-box {
-    padding: 1% 3%;
+    padding:1% 3% 2% 3%;
 }
 .press-box {
     border-right:1px solid #eee;
@@ -331,7 +343,7 @@ a:hover{
     height: 40px;
     line-height: 34px;
     padding: 0 30px;
-    right: 5%;
+    right: 10%;
     background: #ffa3b7;
     cursor: pointer;
     border-bottom: 0px;
@@ -346,9 +358,13 @@ a:hover{
 
 .main-blocks {
 
-    position: relative;
-    height: 100%;
-
+    overflow: hidden;
+    color: #fff;
+    height: 100vh;
+    
+    width: 100%;
+    position: absolute;
+    z-index: 51;
 }
 
 .main-box {
@@ -357,6 +373,7 @@ a:hover{
     background: #FFA3B7;
     padding: 2%;
     position: absolute;
+    cursor: pointer;
  }
 
 .investment-banking{
@@ -373,40 +390,49 @@ a:hover{
 
 .main-box-title h1 {
 
-    font-weight: 700;
-    font-size: 50px;
+        font-weight: 800;
+    font-size: 2.6rem;
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 
 }
 .main-box-description {
     position: absolute;
     bottom: 5%;
-    padding-right: 10%;
+    padding-right: 0%;
+    opacity: 1;
 }
 
 .main-box-title {
     position: absolute;
     top: 20%;
+    opacity: 1;
 }
 
 .main-box-description p {
     color: #fff;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-right: 10%;
 }
 
 .main-box.media-entertainment .main-box-title h1 {
 
-    font-size: 35px;
-	color: #ffa3b7;
+   font-size: 2.2rem;
+
+color: #ffa3b7;
+
+letter-spacing: 2px;
 }
 
 
 .main-box.media-entertainment {
-	top: 10%;
-	left: 41%;
-    width: 24%;
+	    top: 10%;
+    left: 41%;
+    width: 28%;
     height: 38vh;
     background: #eee;
 
@@ -429,21 +455,21 @@ a:hover{
 .main-box.commodity-trading  .main-box-title h1 {
 
     font-size: 35px;
-	color: #555;
+	color: #ffa3b7;
 }
 
 
 .main-box.commodity-trading .main-box-description p{
-	color: #555;
+	color: #ffa3b7;
 }
 
 .main-box.about-us {
 
-    width: 24%;
+        width: 20%;
     height: 38vh;
     top: 10%;
-    left: 66%;
-    background:#ffa3b7;
+    left: 70%;
+    background: #ffa3b7;
 
 }
 
@@ -466,9 +492,325 @@ a:hover{
 }
 .logo-box {
     position: fixed;
-    width: 15%;
-    height: 25vh;
+    height: 20vh;
     left: 1%;
-    top: 10px;
+    top: 30px;
+    z-index: 61;
+    cursor: pointer;
+}
 
+.investment-banking .main-box-title {
+    top: 25%;
+}
+
+.overlay-box{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(155,114,100,.75);
+    z-index: 62;
+    display: none;
+}
+
+.overlay-box-open{
+    display: block;
+}
+ svg {
+    margin-left: -17%;
+    font-size: 5rem;
+    transition: all .3s;
+}
+svg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    letter-spacing: .3125rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    left: 0;
+    top: 0;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+svg {
+    margin-left: -17%;
+    font-size: 5rem;
+    transition: all .3s;
+}
+
+.know-more a{
+    color: #333;
+}
+.know-more{
+    color: #333;
+    background: #eee;
+    /*transform: scale3d(0,1,1);
+    transform-origin: 00%;*/
+    transition: 0.5s;
+    opacity:0;
+    margin-top: 20px;
+
+}
+
+.main-box:hover .know-more{
+    /*transform: scale3d(1,1,1);*/
+    opacity: 1;
+    margin-top: 0;
+}
+
+/*.main-menu ul li {
+    text-align: right;
+    width: 100%;
+    margin: 0 0 .625rem;
+    
+}*/
+
+.overlay-box-active{
+    display: block;
+}
+
+.menu-open .menu-item {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition: all .5s;
+    opacity: 1
+}
+
+.menu-open .menu-item:nth-child(1) {
+    transition-delay: .2s
+}
+.menu-open .menu-item:nth-child(2) {
+    transition-delay: .3s
+}
+.menu-open .menu-item:nth-child(3) {
+    transition-delay: .4s
+}
+.menu-open .menu-item:nth-child(4) {
+    transition-delay: .5s
+}
+.menu-open .menu-item:nth-child(5) {
+    transition-delay: .6s
+}
+.menu-open .menu-item:nth-child(6) {
+    transition-delay: .7s
+}
+.menu-open .menu-item:nth-child(7) {
+    transition-delay: .8s
+}
+
+
+
+.segment {
+    position: absolute;
+    left: -6249.9375rem;
+    top: 0
+}
+
+.segment .divider,
+.segment .module {
+    display: none
+}
+
+.segment.active-segment {
+    position: static;
+    left: auto
+}
+
+.segment.active-segment .divider,
+.segment.active-segment .module {
+    display: block
+}
+
+
+
+.image-wrapper {
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+}
+.site-content {
+    transition: all .5s;
+    position: relative;
+    z-index: 50;
+}
+.segment {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: auto;
+}
+
+.module-image-text {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+
+
+.box-left{
+    transform: scale3d(1,1,1);
+    transition: 0.5s;
+    transform-origin: 0%;
+    transition-delay: 0.3s;
+}
+.box-right{
+    transform: scale3d(1,1,1);
+    transition: 0.5s;
+    transform-origin: 100%;
+    transition-delay: 0.3s;
+}
+
+.active-intro .box-left{
+    transform: scale3d(0,1,1);
+
+}
+.active-intro .box-right{
+    transform: scale3d(0,1,1);
+
+}
+.active-intro .main-box-title , .active-intro .main-box-description {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.segment {
+    position: absolute;
+    left: -6249.9375rem;
+    top: 0
+}
+
+.segment .divider,
+.segment .module {
+    display: none
+}
+
+.segment.active-segment {
+    position: static;
+    left: auto
+}
+
+.segment.active-segment .divider,
+.segment.active-segment .module {
+    display: block
+}
+
+.image-wrapper {
+    width: 50%;
+    -webkit-transform: translate(-100%,0);
+    transform: translate(-100%,0);
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+    transition-delay: 0s;
+    transition-delay: 1s;
+    z-index: 5;
+}
+
+.segment {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: auto;
+}
+
+.module-image-text {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+
+.text-wrapper {
+    padding: 0 5% 0 54%;
+    width: 100%;
+    -webkit-transform: translate(-100%,0);
+    transform: translate(-110%,0);
+    /*position: absolute;*/
+    right: 0;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ffebe4;
+        background-color: rgb(255, 235, 228);
+    background-color: rgb(255, 235, 228);
+    transition: all 1s;
+        transition-delay: 0s;
+    transition-delay: 0s;
+    transition-delay: .5s;
+    z-index: 2;
+}
+
+.module-image-text .text-wrapper h2 {
+    font-size: 1.875rem;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 300;
+    letter-spacing: .25rem;
+    margin: 0 0 2.5rem;
+    text-transform: uppercase;
+    opacity: 0;
+    -webkit-transform: translate(0,6.25rem);
+    transform: translate(0,6.25rem);
+    transition: all 1s;
+    
+}
+.module-image-text .text-wrapper p {
+    font-size: 1.25rem;
+    font-family: adobe-caslon-pro,serif;
+    line-height: 2rem;
+    margin: 1rem 0;
+    opacity: 0;
+    -webkit-transform: translate(0,6.25rem);
+    transform: translate(0,6.25rem);
+    transition: all 1s;
+}
+.active-segment .text-wrapper p:first-of-type {
+    transition-delay: 1.4s;
+}
+
+
+.active-segment .text-wrapper p{
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    transition-delay: 1.6s;
+}
+
+.active-segment .text-wrapper h2{
+    opacity: 1;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    transition-delay: 1.2s;
+}
+
+.active-segment .text-wrapper{
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.active-segment .image-wrapper {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+}
+
+
+ .section-title h1 {
+    margin: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+    text-transform: uppercase;
+    color: #ff5c57;
+    opacity: .5;
+    font-size: 6.25rem;
+    letter-spacing: .3125rem;
 }
