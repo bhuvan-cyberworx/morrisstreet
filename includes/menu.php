@@ -1,7 +1,7 @@
 
 <div class="main-menu" id="main-menu">
 	<div class="flamingo">
-		<img src="assets/images/logo.png" alt="">
+		<img src="assets/images/logo1.png" alt="">
 	</div>
 	<ul class="menu-list list-unstyled">
 		<li class="menu-item list-unstyled-item">

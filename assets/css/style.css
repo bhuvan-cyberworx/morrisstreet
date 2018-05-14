@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,500,800,700');
+
+
 body{
 	margin:0;
 	padding: 0;
 	border: 0;
 	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
 }
 
 a{
@@ -52,13 +56,14 @@ a:hover{
 
 }
 .menu-item a {
-    font-size: 30px;
+    font-size: 26px;
     color:#7f8f97;
     position: relative;
     z-index: 1;
-    font-weight: 300;
+    font-weight: 400;
 	text-transform: capitalize;
 	letter-spacing: 1px;
+	font-family: 'Merriweather', serif;
 
 }
 .menu-item {
@@ -76,8 +81,8 @@ a:hover{
     content: "";
     position: absolute;
     width: 100%;
-    height: 5px;
-    background: #FFA3B7;
+    height: 3px;
+    background: #F45B69;
     bottom: 0;
     transition: 0.3s;
     left: 0%;
@@ -94,7 +99,7 @@ a:hover{
 
 .menu-item a:hover{
 	text-decoration: none;
-	color: #333;
+	color: #F45B69;
 }
 
 .menu-item a:hover ~ .sub{
@@ -144,7 +149,7 @@ a:hover{
     position: absolute;
     height: 7px;
     width: 100%;
-    background: #FFA3B7;
+    background: #F45B69;
     border-radius: 1px;
     opacity: 1;
     left: 0;
@@ -233,11 +238,11 @@ a:hover{
 }
 
 .float-button {
-    border: 2px solid #ffa3b7;
+    border: 2px solid #F45B69;
     position: absolute;
-    height: 50px;
-    line-height: 43px;
-    padding: 0 40px;
+    height: 45px;
+	line-height: 40px;
+	padding: 0 30px;
     overflow: hidden;
     cursor: pointer;
  }
@@ -245,26 +250,26 @@ a:hover{
 
     color: #fff;
     text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 5px;
+    font-size: 12px;
+    letter-spacing: 3px;
     font-weight: 600;
 }
 .contact-button{
 	transform: rotate(270deg);
 	top: 50%;
 	left: -4%;
-	background: #fff;
-    z-index: 1;
+	background: transparent;
+    z-index: 61;
 	
 }
 .contact-button a{
-	color: #ffa3b7;
+	color: #F45B69;
 }
 .float-button::before {
     content: "";
     width: 100%;
     height: 100%;
-    background: #ffa3b7;
+    background: #F45B69;
     z-index: -1;
     position: absolute;
     left: 0%;
@@ -314,40 +319,43 @@ a:hover{
 }
 .press-title h2 {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     color: #444;
     letter-spacing: 0.5px;
     margin-top: 10px;
 }
 
 .press-read-more a {
-    color: #ffa3b7;
-    border:2px solid  #ffa3b7;
-    padding: 5px 20px 6px 20px;
-    border-radius: 2px;
-    font-weight: 600;
-    line-height: 0;
-    font-size: 12px;
+    color: #F45B69;
+border: 1px solid #F45B69;
+padding: 5px 20px 6px 20px;
+border-radius: 2px;
+font-weight: 500;
+line-height: 0;
+font-size: 10px;
 }
 
 .press-relase-button {
 
     color: #fff;
     padding: 5px 20px 8px 20px;
-    border: 2px solid #ffa3b7;
+    border: 2px solid #F45B69;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: rgb(255, 163, 183);
     position: absolute;
     top: -40px;
-    height: 40px;
-    line-height: 34px;
-    padding: 0 30px;
-    right: 10%;
-    background: #ffa3b7;
-    cursor: pointer;
-    border-bottom: 0px;
-    font-weight: 600;
+	height: 40px;
+	line-height: 37px;
+	padding: 0 30px;
+	right: 10%;
+	background: #F45B69;
+	cursor: pointer;
+	border-bottom: 0px;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 
 }
 
@@ -370,11 +378,91 @@ a:hover{
 .main-box {
     width: 28%;
     height: 80vh;
-    background: #FFA3B7;
+    background: #F45B69;
     padding: 2%;
     position: absolute;
     cursor: pointer;
+    transition: 0.5s;
+    overflow:hidden;
+    /*box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.2);*/
  }
+
+/*.main-box:hover {
+    opacity: 1;
+    z-index: 100;
+}
+*/
+
+.scroll-img img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.scroll-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /*transform: translate(-100%,-00%);*/
+    opacity: 0;
+    transition: 0.3s;
+z-index: -1;
+
+}
+
+/*.media-entertainment:hover   {
+    top: 10%;
+    left: 12%;
+    background: url(../images/media.jpg) !important;
+}
+.investment-banking:hover  {
+    top: 10%;
+    left: 12%;
+    background: url(../images/investment.jpg) !important;
+}
+.about-us:hover  {
+    top: 10%;
+    left: 12%;
+    background: url(../images/team.jpg) !important;
+}
+.commodity-trading:hover  {
+    top: 10%;
+    left: 12%;
+    background: url(../images/trading.jpg) !important;
+}*/
+.main-box:hover .scroll-img {
+	transform: translate(0%,-000%);
+	opacity: 1;
+	}
+.main-box:hover:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.main-box:hover h1 , .main-box:hover p{
+	color: #fff !important;
+
+}
+
+
+.main-box:hover  .main-box-title h1 {
+
+    /*transition: 0.5s;
+    background: url(../images/team.jpg) -0px -80px no-repeat;
+        background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    color: #000;
+}
 
 .investment-banking{
 	 top: 10%;
@@ -395,6 +483,7 @@ a:hover{
     color: #fff;
     letter-spacing: 5px;
     text-transform: uppercase;
+    transition: 0.3s;
 
 }
 .main-box-description {
@@ -412,41 +501,46 @@ a:hover{
 
 .main-box-description p {
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 12px;
     padding-right: 10%;
+    transition: 0.3s;
 }
 
 .main-box.media-entertainment .main-box-title h1 {
 
-   font-size: 2.2rem;
+   font-size: 2rem;
 
-color: #ffa3b7;
+color: #fff;
 
 letter-spacing: 2px;
 }
 
+.main-box.about-us .main-box-title h1 {
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
 
 .main-box.media-entertainment {
 	    top: 10%;
     left: 41%;
     width: 28%;
     height: 38vh;
-    background: #eee;
+    background: #F4ACB7;
 
 }
 
 .main-box.media-entertainment .main-box-description p{
-	color: #ffa3b7;
+	color: #fff;
 }
 
 .main-box.commodity-trading {
 
     width: 49%;
     height: 40vh;
-    background: #f5f5f5;
+    background: #ed7e9a;
     left: 41%;
     top: 50%;
 
@@ -455,12 +549,12 @@ letter-spacing: 2px;
 .main-box.commodity-trading  .main-box-title h1 {
 
     font-size: 35px;
-	color: #ffa3b7;
+	color: #fff;
 }
 
 
 .main-box.commodity-trading .main-box-description p{
-	color: #ffa3b7;
+	color: #fff;
 }
 
 .main-box.about-us {
@@ -469,13 +563,13 @@ letter-spacing: 2px;
     height: 38vh;
     top: 10%;
     left: 70%;
-    background: #ffa3b7;
+    background: #E1717B;
 
 }
 
 .main-box.about-us  .main-box-title h1 {
 
-    font-size: 35px;
+    
 	color: #fff;
 }
 
@@ -487,7 +581,11 @@ letter-spacing: 2px;
 .logo-box img {
 
     height: 100%;
-    object-fit: contain;
+    width: 125px;
+
+object-fit: contain;
+
+object-position: top;
 
 }
 .logo-box {
@@ -627,7 +725,7 @@ svg {
 
 .image-wrapper {
     height: 100%;
-    width: 50%;
+    width: 45%;
     background-size: cover;
 }
 .site-content {
@@ -655,21 +753,28 @@ svg {
     transform: scale3d(1,1,1);
     transition: 0.5s;
     transform-origin: 0%;
-    transition-delay: 0.3s;
+    
 }
 .box-right{
     transform: scale3d(1,1,1);
     transition: 0.5s;
     transform-origin: 100%;
-    transition-delay: 0.3s;
+   
 }
-
+.active-intro ~ .contact-button{
+	background: #F45B69;
+}
+.active-intro ~ .contact-button a{
+	color: #fff;
+}
 .active-intro .box-left{
     transform: scale3d(0,1,1);
+    transition-delay: 0.3s;
 
 }
 .active-intro .box-right{
     transform: scale3d(0,1,1);
+     transition-delay: 0.3s;
 
 }
 .active-intro .main-box-title , .active-intro .main-box-description {
@@ -699,7 +804,7 @@ svg {
 }
 
 .image-wrapper {
-    width: 50%;
+    width: 45%;
     -webkit-transform: translate(-100%,0);
     transform: translate(-100%,0);
     position: absolute;
@@ -729,7 +834,7 @@ svg {
 }
 
 .text-wrapper {
-    padding: 0 5% 0 54%;
+    padding: 0 5% 0 50%;
     width: 100%;
     -webkit-transform: translate(-100%,0);
     transform: translate(-110%,0);
@@ -754,8 +859,8 @@ svg {
 
 .module-image-text .text-wrapper h2 {
     font-size: 1.875rem;
-    font-family: proxima-nova,sans-serif;
-    font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     letter-spacing: .25rem;
     margin: 0 0 2.5rem;
     text-transform: uppercase;
@@ -766,8 +871,8 @@ svg {
     
 }
 .module-image-text .text-wrapper p {
-    font-size: 1.25rem;
-    font-family: adobe-caslon-pro,serif;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
     line-height: 2rem;
     margin: 1rem 0;
     opacity: 0;
@@ -814,3 +919,32 @@ svg {
     font-size: 6.25rem;
     letter-spacing: .3125rem;
 }
+
+.intro-title {
+    position: absolute;
+    z-index: 6;
+    width: 40%;
+    left: 7%;
+    -webkit-transform: translate(0,4rem);
+    transform: translate(0,4rem);
+	transition: 1s;
+	
+	opacity: 0;
+	top: 30%;
+}
+.intro-title h1 {
+
+    font-weight: 900;
+    font-size: 3.6rem;
+    /*color: rgba(228,26,125,0.7);*/
+    /*color: rgba(100, 99, 115,0.6);*/
+    color: rgba(255, 255, 255,0.7);
+    text-transform: uppercase;
+ }
+
+ .active-segment .intro-title{
+ 	-webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    opacity: 1;
+    transition-delay: 1.6s;
+ }
