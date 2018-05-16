@@ -7,7 +7,7 @@ body{
 	border: 0;
 	overflow-x: hidden;
 	font-family: 'Montserrat', sans-serif;
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
 }
 
 a{
@@ -65,7 +65,7 @@ a:hover{
 	text-transform: capitalize;
 	letter-spacing: 1px;
 	font-family: 'Montserrat', serif;
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
 
 }
 .menu-item {
@@ -354,7 +354,7 @@ font-size: 10px;
     height: 35px;
     line-height: 33px;
     padding: 0 30px;
-    right: 19%;
+    right: 20%;
     background: #F45B69;
     cursor: pointer;
     border-bottom: 0px;
@@ -382,8 +382,8 @@ font-size: 10px;
 }
 
 .main-box {
-    width: 24%;
-    height: 72vh;
+    width: 30%;
+    height: 38vh;
     background: #F45B69;
     padding: 2%;
     position: absolute;
@@ -471,14 +471,14 @@ z-index: -1;
 }
 
 .investment-banking{
-	     top: 15%;
-    left: 18%;
+	     top: 13%;
+    left: 19.5%;
 }
 
 .main-box.about-us {
 
-    width: 24%;
-    height: 38vh;
+    /*width: 24%;*/
+    /*height: 38vh;*/
 
 }
 
@@ -517,7 +517,7 @@ z-index: -1;
 
 .main-box.media-entertainment .main-box-title h1 {
 
-   font-size: 1.6rem;
+   font-size: 2rem;
 
 color: #444;
 
@@ -526,15 +526,15 @@ letter-spacing: 2px;
 
 .main-box.about-us .main-box-title h1 {
     letter-spacing: 1px;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .main-box.media-entertainment {
-	       top: 15%;
-    left: 42.5%;
-    width: 18.5%;
-    height: 34vh;
-    background: #D6DFE2;
+	top: 13%;
+left: 50%;
+/*width: 18.5%;
+height: 34vh;*/
+background: #D6DFE2;
 
 }
 
@@ -544,11 +544,11 @@ letter-spacing: 2px;
 
 .main-box.commodity-trading {
 
-    width: 38%;
-    height: 37vh;
-    background: #EEEEEE;
-    left: 42.5%;
-    top: 50%;
+    /*width: 38%;*/
+    /*height: 37vh;*/
+   background: #EEEEEE;
+left: 19.5%;
+top: 52.5%;
 
 }
 
@@ -569,11 +569,11 @@ letter-spacing: 2px;
 
 .main-box.about-us {
 
-   width: 19%;
-    height: 34vh;
-    top: 15%;
-    left: 61.5%;
-    background: #E1717B;
+   /*width: 19%;*/
+    /*height: 34vh;*/
+    top: 52.5%;
+left: 50%;
+background: #E1717B;
 }
 
 .main-box.about-us  .main-box-title h1 {
@@ -607,7 +607,7 @@ object-position: top;
 }
 
 .investment-banking .main-box-title {
-    top: 25%;
+    /*top: 25%;*/
 }
 
 .overlay-box{
@@ -717,17 +717,17 @@ svg {
 
 .segment .divider,
 .segment .module {
-    display: none
+    display: none;
 }
 
 .segment.active-segment {
     position: static;
-    left: auto
+    left: auto;
 }
 
 .segment.active-segment .divider,
 .segment.active-segment .module {
-    display: block
+    display: block;
 }
 
 
@@ -990,10 +990,10 @@ color: #fff;
         font-size: 3rem;
     }
     .main-box.media-entertainment .main-box-title h1{
-        font-size: 2.6rem;
+        font-size: 3rem;
     }
     .main-box.about-us .main-box-title h1{
-        font-size: 2.6rem;
+        font-size: 3rem;
     }
     .main-box.commodity-trading .main-box-title h1{
         font-size: 3rem;
@@ -1036,3 +1036,11 @@ color: #fff;
     background: #333;
     opacity: 0.2;
 }
+
+/*#main-blocks:hover > .main-box {
+  opacity: 0.5;
+}*/
+/*
+.main-box:hover ~ .main-box {
+  opacity: 0.5;
+}*/

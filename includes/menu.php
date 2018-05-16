@@ -1,8 +1,8 @@
 
 <div class="main-menu" id="main-menu">
-	<div class="flamingo">
+	<!-- <div class="flamingo">
 		<img src="assets/images/logo1.png" alt="">
-	</div>
+	</div> -->
 	<ul class="menu-list list-unstyled">
 		<li class="menu-item list-unstyled-item">
 			<a href="">Investment Banking</a>
@@ -36,7 +36,7 @@
 </div>
 
 
-<div id="nav-icon3">
+<div id="nav-icon3" class="nav-icon3">
   <span></span>
   <span></span>
   <span></span>

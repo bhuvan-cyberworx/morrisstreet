@@ -4,6 +4,7 @@ $(document).ready(function(){
 		$('#main-menu').toggleClass('menu-open');		
 		$('#main-wrapper').toggleClass('shift-left');
 		$('#overlay-box').toggleClass('overlay-box-active');
+    $('#nav-icon3').toggleClass('nav-icon3-open');
 
 	});
 
@@ -18,20 +19,23 @@ $(document).ready(function(){
         
     });
 
-    $(".logo-box").click(function() {
+    $(".back-button").click(function() {
     	$(".segment").removeClass("active-segment");
     	$(".main-blocks").removeClass("active-intro");
     	setTimeout(function(){
     		document.getElementById('main-blocks').style.zIndex = 51;
-    	},1600)
+    	},1600),
+        $("#site-content").removeClass("active-site-content")
 
     });
 
     function changeSegment(t) {
     	console.log(".segment#" + t);
        $(".main-blocks").addClass("active-intro"), 
+       $("#site-content").addClass("active-site-content"), 
        $(".segment").removeClass("active-segment"), 
        $(".segment#" + t).addClass("active-segment")
+      
     }
 });
 
