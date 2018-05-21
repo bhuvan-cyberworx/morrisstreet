@@ -1,2 +1,15 @@
 https://tympanus.net/Development/MenuHoverEffects/salal.html
 https://tympanus.net/Development/AnimatedGridLayout/index2.html
+
+
+
+Pages Done - 
+
+1. Home page
+2. Investment Page
+3. Media page
+4. Trading page
+5. About Us
+6. Contact Us
+7. Team Page
+8. Press Release Page
