@@ -107,7 +107,7 @@
 
 			  <div class="form-group">
 			    
-			  <textarea placeholder="Your Message" class="form-control" id="message"  > </textarea> 
+			  <textarea placeholder="Your Message" class="form-control" id="message"></textarea> 
 			    <small id="emailHelp" class="form-text text-muted"></small>
 			  </div>
 			  

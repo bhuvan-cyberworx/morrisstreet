@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,500,800,700,900');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700');
 
 body{
-	margin:0;
-	padding: 0;
-	border: 0;
-	overflow-x: hidden;
-	font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
     /*font-family: 'Josefin Sans', sans-serif;*/
 }
 
 a{
-	text-decoration: none;
+    text-decoration: none;
 }
 a:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 
 *{
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 #main-menu {
     height: 100vh;
@@ -26,13 +26,13 @@ a:hover{
     padding: 3.5%;
     border-left: 2px solid #eee;
     width: 31rem;
-    position: absolute;
-	z-index: 63;
-	transition: 0.5s;
-	
+    position: fixed;
+    z-index: 63;
+    transition: 0.5s;
+    
 }
 .main-menu{
-	-webkit-transform: translate(31rem,0);
+    -webkit-transform: translate(31rem,0);
     transform: translate(31rem,0);
     right: 0;
     box-shadow: 0;
@@ -62,9 +62,9 @@ a:hover{
     position: relative;
     z-index: 1;
     font-weight: 500;
-	text-transform: capitalize;
-	letter-spacing: 1px;
-	font-family: 'Montserrat', serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', serif;
     /*font-family: 'Josefin Sans', sans-serif;*/
 
 }
@@ -96,20 +96,20 @@ a:hover{
     z-index: -1;
 }
 .menu-item a:hover:before{
-	transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
 } 
 
 .menu-item a:hover{
-	text-decoration: none;
-	color: #F45B69;
+    text-decoration: none;
+    color: #F45B69;
 }
 
 .menu-item a:hover ~ .sub{
-	opacity: 1;
-	margin-top: 0;
+    opacity: 1;
+    margin-top: 0;
 }
 .menu-open{
-	-webkit-transform: translate(0,0);
+    -webkit-transform: translate(0,0);
     transform: translate(0,0);
     box-shadow: -0.7rem 0 3.125rem #94776d;
 }
@@ -130,7 +130,7 @@ a:hover{
 .nav-icon3 {
     width: 40px;
     height: 30px;
-    position: absolute;
+    position: fixed;
     
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -170,7 +170,7 @@ a:hover{
 }
 /* Icon 3 */
 #nav-icon3{
-	transition: 0.15s;
+    transition: 0.15s;
 }
 #nav-icon3 span:nth-child(1) {
   top: 0px;
@@ -227,28 +227,28 @@ a:hover{
 /*Index Page CSS Starts here*/
 
 #main-wrapper{
-	height: 100vh;
-	width: 100vw;
-	overflow: hidden;
-	transition: 0.5s;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    transition: 0.5s;
 }
 .main-wrapper{
-	margin-left:0rem;
-	background: #fff;
+    margin-left:0rem;
+    background: #fff;
 }
 
 .shift-left{
-	margin-left: -31rem;
-	background: #fff;
-	opacity: 1;
+    margin-left: -31rem;
+    background: #fff;
+    opacity: 1;
 }
 
 .float-button {
     border: 2px solid #F45B69;
-    position: absolute;
+    position: fixed;
     height: 45px;
-	line-height: 40px;
-	padding: 0 30px;
+    line-height: 40px;
+    padding: 0 30px;
     overflow: hidden;
     cursor: pointer;
  }
@@ -261,15 +261,15 @@ a:hover{
     font-weight: 600;
 }
 .contact-button{
-	transform: rotate(270deg);
-	top: 50%;
-	left: -2%;
-	background: transparent;
+    transform: rotate(270deg);
+    top: 50%;
+    left: -2%;
+    background: transparent;
     z-index: 61;
-	
+    
 }
 .contact-button a{
-	color: #F45B69;
+    color: #F45B69;
 }
 .float-button::before {
     content: "";
@@ -285,12 +285,12 @@ a:hover{
 }
 
 .float-button:hover:before {
-	bottom:0;
+    bottom:0;
 
 }
 
 .contact-button:hover a{
-	color: #fff;
+    color: #fff;
 }
 
 .press-release-wrapper {
@@ -313,7 +313,7 @@ a:hover{
 .press-image img {
     width: 100%;
     height: 150px;
-	object-fit: cover;
+    object-fit: cover;
 }
 .press-image {
     display: none;
@@ -354,7 +354,7 @@ font-size: 10px;
     height: 35px;
     line-height: 33px;
     padding: 0 30px;
-    right: 20%;
+    right: 3%;
     background: #F45B69;
     cursor: pointer;
     border-bottom: 0px;
@@ -366,7 +366,7 @@ font-size: 10px;
 }
 
 .show-press-release{
-	bottom: 0%;
+    bottom: 0%;
 }
 
 
@@ -383,7 +383,7 @@ font-size: 10px;
 
 .main-box {
     width: 30%;
-    height: 38vh;
+    height: 30vh;
     background: #F45B69;
     padding: 2%;
     position: absolute;
@@ -440,9 +440,9 @@ z-index: -1;
     background: url(../images/trading.jpg) !important;
 }*/
 .main-box:hover .scroll-img {
-	transform: translate(0%,-000%);
-	opacity: 1;
-	}
+    transform: translate(0%,-000%);
+    opacity: 1;
+    }
 .main-box:hover:before {
     content: "";
     position: absolute;
@@ -455,7 +455,7 @@ z-index: -1;
     transition: 0.5s;
 }
 .main-box:hover h1 , .main-box:hover p{
-	color: #fff !important;
+    color: #fff !important;
 
 }
 
@@ -471,23 +471,23 @@ z-index: -1;
 }
 
 .investment-banking{
-	     top: 13%;
+        top: 13%;
     left: 19.5%;
 }
 
 .main-box.about-us {
 
     /*width: 24%;*/
-    /*height: 38vh;*/
+    height: 38vh;
 
 }
 
 .main-box-title h1 {
 
         font-weight: 900;
-    font-size: 2rem;
+    font-size: 2.8rem;
     color: #fff;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     transition: 0.3s;
 
@@ -527,28 +527,26 @@ letter-spacing: 2px;
 .main-box.about-us .main-box-title h1 {
     letter-spacing: 1px;
     font-size: 2rem;
+    color: #444;
 }
 
 .main-box.media-entertainment {
-	top: 13%;
-left: 50%;
-/*width: 18.5%;
-height: 34vh;*/
-background: #eee;
+           top: 40%;
+    left: 49.5%;
+    background: #D6DFE2;
+
 
 }
 
 .main-box.media-entertainment .main-box-description p{
-	color: #444;
+    color: #444;
 }
 
 .main-box.commodity-trading {
 
-    /*width: 38%;*/
-    /*height: 37vh;*/
-   background: #EEEEEE;
-left: 19.5%;
-top: 52.5%;
+        background: #EEEEEE;
+    left: 49.5%;
+    top: 10%;
 
 }
 
@@ -559,32 +557,31 @@ top: 52.5%;
 .main-box.commodity-trading  .main-box-title h1 {
 
     font-size: 2rem;
-	color: #222;
+    color: #222;
 }
 
 
 .main-box.commodity-trading .main-box-description p{
-	color: #222;
+    color: #222;
 }
 
 .main-box.about-us {
 
-   /*width: 19%;*/
-    /*height: 34vh;*/
-    top: 52.5%;
-left: 50%;
-background: #f45b69;
+   height: 27vh;
+    top: 70%;
+    left: 49.5%;
+    background: #eeeeee;
 }
 
 .main-box.about-us  .main-box-title h1 {
 
     
-	color: #fff;
+    color: #444;
 }
 
 
 .main-box.about-us .main-box-description p{
-	color: #fff;
+    color: #444;
 }
 
 .logo-box img {
@@ -607,13 +604,13 @@ object-position: top;
 }
 
 .investment-banking .main-box-title {
-    /*top: 25%;*/
+    top: 25%;
 }
 
 .overlay-box{
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     background: rgba(155,114,100,.75);
     z-index: 62;
     display: none;
@@ -717,17 +714,18 @@ svg {
 
 .segment .divider,
 .segment .module {
-    display: none;
+    display: none
 }
 
 .segment.active-segment {
     position: static;
-    left: auto;
+    left: auto
+    z-index:500;
 }
 
 .segment.active-segment .divider,
 .segment.active-segment .module {
-    display: block;
+    display: block
 }
 
 
@@ -745,8 +743,8 @@ svg {
 .segment {
     width: 100%;
     height: 100%;
-    position: absolute;
-    left: auto;
+    /*position: absolute;
+    left: auto;*/
 }
 
 .module-image-text {
@@ -771,10 +769,10 @@ svg {
    
 }
 .active-intro ~ .contact-button{
-	background: #F45B69;
+    background: #F45B69;
 }
 .active-intro ~ .contact-button a{
-	color: #fff;
+    color: #fff;
 }
 .active-intro .box-left{
     transform: scale3d(0,1,1);
@@ -832,6 +830,7 @@ svg {
     height: 100%;
     position: absolute;
     left: auto;
+    z-index: -1;
 }
 
 .module-image-text {
@@ -953,7 +952,7 @@ svg {
  }
 
  .active-segment .intro-title{
- 	-webkit-transform: translate(0,0);
+    -webkit-transform: translate(0,0);
     transform: translate(0,0);
     opacity: 1;
     transition-delay: 1.6s;
@@ -990,10 +989,10 @@ color: #fff;
         font-size: 3rem;
     }
     .main-box.media-entertainment .main-box-title h1{
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
     .main-box.about-us .main-box-title h1{
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
     .main-box.commodity-trading .main-box-title h1{
         font-size: 3rem;
@@ -1037,13 +1036,6 @@ color: #fff;
     opacity: 0.2;
 }
 
-/*#main-blocks:hover > .main-box {
-  opacity: 0.5;
-}*/
-/*
-.main-box:hover ~ .main-box {
-  opacity: 0.5;
-}*/
 
 
 .divider{
@@ -1129,8 +1121,8 @@ ul.client-list li img {
 }
 
 .col-wrapper {
-    width: 70%;
-    margin-left: 15%;
+    width: 60%;
+    margin-left: 20%;
     text-align: left;
 }
 
@@ -1345,8 +1337,6 @@ form#contact-us-form textarea {
     border-color: #eee;
     height: 150px;
     resize: none;
-    font-family: montserrat;
-    font-size: 12px;
 }
 
 button.contact-us-btn.btn.btn-primary {
@@ -1420,3 +1410,6 @@ li.social-icon a {
     color: #f45b69;
 }
 
+.main-box.investment-banking.box-right {
+    height: 80vh;
+}
