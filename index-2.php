@@ -1,5 +1,5 @@
 <!-- Including header -->
-<?php include_once("includes/header-2.php"); ?>
+<?php include_once("includes/header.php"); ?>
 
 <!-- Inclduing menu file -->
 <?php include_once("includes/menu.php"); ?>
@@ -111,7 +111,293 @@
 				</div>
 			</div>
 
-			<div style="height: 600px;"></div>
+			<div class="module text-center container fade-in ">
+    
+     <div class="main-title text-center ">
+        <h2>Why Morris Street?</h2>
+        <p class="main-title-desc">
+            Cras ut augue pretium, viverra nunc in, luctus odio.
+        </p>
+    </div>
+
+    <div class="col-wrapper">
+        <div class="ingress">
+            <p>Investment Banking provides expertise across products, industries and regions. Our team approach to client service enables our bankers to play an important role in building relationships and executing transactions.</p>
+        </div>
+
+        <div class="">
+
+            <ul class="feature-list list-unstyled">
+                <div class="feature-list-headline">
+                    <h2>Investment Banking’s key areas of focus include:</h2>
+                </div>   
+                <li>
+                    <span>Industries:</span> 
+                    Financial institutions, technology, media, healthcare, industrial, consumer and retail, natural resources, and public sector
+                </li> 
+
+                <li>
+                    <span>Products:</span> 
+                    Equity, leveraged finance, debt, financial advisory, and mergers and acquisitions
+                </li> 
+
+                <li>
+                    <span>Regions:</span> 
+                    Americas, Europe, Asia, and Japan
+                </li> 
+
+            </ul>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="divider" style="background-image:url(http://startuplab.no/content/uploads/2016/09/tise-compressed.jpg); background-position: center 51.0727%;"></div>
+
+<div class="client-section container module">
+    <div class="main-title text-center">
+        <h2>Our Featured Clients</h2>
+        <p class="main-title-desc mb8">
+            Cras ut augue pretium, viverra nunc in, luctus odio.
+        </p>
+    </div>
+    <div class="row">
+        <ul class="client-list list-unstyled">
+            <li>
+                <img class="client-logo" src="assets/images/clients/comedycentral.jpg" alt="">
+                <div class="client-info">
+                    <p class="client-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada orci ex, quis ullamcorper est gravida quis.
+                    </p>
+                    <p class="client-link">
+                        <a href="">comedycentral.com</a>
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <img class="client-logo" src="assets/images/clients/breakmedia.jpg" alt="">
+                <div class="client-info">
+                    <p class="client-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada orci ex, quis ullamcorper est gravida quis.
+                    </p>
+                    <p class="client-link">
+                        <a href="">breakmedia.com</a>
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <img class="client-logo" src="assets/images/clients/cookie.png" alt="">
+                <div class="client-info">
+                    <p class="client-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada orci ex, quis ullamcorper est gravida quis.
+                    </p>
+                    <p class="client-link">
+                        <a href="">cookie.com</a>
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <img class="client-logo" src="assets/images/clients/endemol.jpg" alt="">
+                <div class="client-info">
+                    <p class="client-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada orci ex, quis ullamcorper est gravida quis.
+                    </p>
+                    <p class="client-link">
+                        <a href="">endemol.com</a>
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <img class="client-logo" src="assets/images/clients/cookie.png" alt="">
+                <div class="client-info">
+                    <p class="client-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada orci ex, quis ullamcorper est gravida quis.
+                    </p>
+                    <p class="client-link">
+                        <a href="">cookie.com</a>
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <img class="client-logo" src="assets/images/clients/endemol.jpg" alt="">
+                <div class="client-info">
+                    <p class="client-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada orci ex, quis ullamcorper est gravida quis.
+                    </p>
+                    <p class="client-link">
+                        <a href="">endemol.com</a>
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <img class="client-logo" src="assets/images/clients/comedycentral.jpg" alt="">
+                <div class="client-info">
+                    <p class="client-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada orci ex, quis ullamcorper est gravida quis.
+                    </p>
+                    <p class="client-link">
+                        <a href="">comedycentral.com</a>
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <img class="client-logo" src="assets/images/clients/breakmedia.jpg" alt="">
+                <div class="client-info">
+                    <p class="client-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada orci ex, quis ullamcorper est gravida quis.
+                    </p>
+                    <p class="client-link">
+                        <a href="">breakmedia.com</a>
+                    </p>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+<div class="divider" style="background-image:url(http://startuplab.no/content/uploads/2016/09/tise-compressed.jpg); background-position: center 51.0727%;"></div>
+
+<div class="module container team-section">
+    <div class="main-title text-center">
+        <h2>Our Team</h2>
+        <p class="main-title-desc mb8">
+            Cras ut augue pretium, viverra nunc in, luctus odio.
+        </p>
+    </div>
+    <div class="row">
+        <ul class="member-list list-unstyled">
+            <!-- Team Member Starts Here -->
+            <li class="member-box">
+                <div class="member-image">
+                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
+                </div>
+                <div class="member-info">
+                    <p class="member-name">Robert Knox</p>
+                    <p class="member-designation">Senior Advisor and Mentor</p>
+                    <p class="member-description">Mr. Robert Knox is the Senior Managing Director and Co-Founder of Cornerstone Equity Investors, L.L.C., a New York-based private equity firm.  The investment principals of Cornerstone have funded more than 100 companies through middle market buyouts and expansion financing since 1984. Mr. Knox has served on the boards of more than 25 public and private companies and not-for profit institutions.</p>
+                    <a href="" class="member-read-more">Read More</a>
+                    <div class="member-contact">
+                        <p>Email<a href="" class="member-email">robert@morris-street.com</a>
+                        <p>Phone<a href="" class="member-phone">9856965854</a></p>
+                    </div> 
+                </div>  
+            </li>
+            <!-- Team Member Ends Here -->
+
+            <!-- Team Member Starts Here -->
+            <li class="member-box">
+                <div class="member-image">
+                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
+                </div>
+                <div class="member-info">
+                    <p class="member-name">Rohit Tiwari</p>
+                    <p class="member-designation">Chief Executive Officer & Managing Director</p>
+                    <p class="member-description">More than 19 Years of experience in Investing and managing Global Trading & Capital Market Businesses. Prior to MSA Rohit was the Managing Director and CEO of AUM Capital, a Investment Bank with 200 employees and a pan India presence. 
+                    Prior to AUM Capital, Rohit served as the Managing Director and Global Head of Linear Equity Derivatives at ING Financial Services based in ....</p>
+                    <a href="" class="member-read-more">Read More</a>
+                    <div class="member-contact">
+                        <p>Email<a href="" class="member-email">Rohit@morris-street.com</a>
+                        <p>Phone<a href="" class="member-phone">9856965854</a></p>
+                    </div> 
+                </div>  
+            </li>
+            <!-- Team Member Ends Here -->
+
+            <!-- Team Member Starts Here -->
+            <li class="member-box">
+                <div class="member-image">
+                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
+                </div>
+                <div class="member-info">
+                    <p class="member-name">P Krishnamurthy</p>
+                    <p class="member-designation">Advisor </p>
+                    <p class="member-description">Mr. P. Krishnamurthy has worked as Vice-Chairman, JM Morgan Stanley. A Chartered Accountant from Kolkata, Mr. Krishnamurthy has an experience of nearly 33 years in Corporate Management and Strategy, Restructuring, Mergers & Acquisitions, International Business and Joint Ventures, Financial Management & Banking. His expertise includes managing ....</p>
+                    <a href="" class="member-read-more">Read More</a>
+                    <div class="member-contact">
+                        <p>Email<a href="" class="member-email">Krishnamurthy@morris-street.com</a>
+                        <p>Phone<a href="" class="member-phone">268989596</a></p>
+                    </div> 
+                </div>  
+            </li>
+            <!-- Team Member Ends Here -->
+
+            <!-- Team Member Starts Here -->
+            <li class="member-box">
+                <div class="member-image">
+                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
+                </div>
+                <div class="member-info">
+                    <p class="member-name">Nitin Bhatia</p>
+                    <p class="member-designation">Board Member and Head of Investment Banking & Capital Markets </p>
+                    <p class="member-description">Nitin currently is guiding MSA’s Investment Banking and Corporate finance ventures. Prior to MSA, Nitin was with Tata Capital's Investment Banking team where he was responsible for various sectors such as Infrastructure, Industrials, Hospitality and Metals and Mining. 
+
+                    Prior to Tata Capital Nitin was at Babcock and Brown’s Infrastructure Fund and....</p>
+                    <a href="" class="member-read-more">Read More</a>
+                    <div class="member-contact">
+                        <p>Email<a href="" class="member-email">Nitinbhatia@morris-street.com</a>
+                        <p>Phone<a href="" class="member-phone">123457990</a></p>
+                    </div> 
+                </div>  
+            </li>
+            <!-- Team Member Ends Here -->
+
+            <!-- Team Member Starts Here -->
+            <li class="member-box">
+                <div class="member-image">
+                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
+                </div>
+                <div class="member-info">
+                    <p class="member-name">Nitin Chaturvedi</p>
+                    <p class="member-designation">CFO & Head of Media & Entertainment Group</p>
+                    <p class="member-description">Over 14 Years of work experience in diversified industries.  
+
+                    Apart from his role as the Chief Financial Officer, Nitin also manages our critical and growing Media & Entertainment Group. In the company's brief history Nitin has successfully led the development of licensing, distribution and marketing of new productions with broadcasters and companies in India.....</p>
+                    <a href="" class="member-read-more">Read More</a>
+                    <div class="member-contact">
+                        <p>Email<a href="" class="member-email">Nitin@morris-street.com</a>
+                        <p>Phone<a href="" class="member-phone">2963562626</a></p>
+                    </div> 
+                </div>  
+            </li>
+            <!-- Team Member Ends Here -->
+
+             <!-- Team Member Starts Here -->
+            <li class="member-box">
+                <div class="member-image">
+                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
+                </div>
+                <div class="member-info">
+                    <p class="member-name">Anil George</p>
+                    <p class="member-designation">Investment Banking & Capital Markets Advisory</p>
+                    <p class="member-description">With a background which includes strategic roles within MNC’s, Management Consultancy’s and Startups, Anil brings almost 20 years of global experience in business transformation, operations and technology management across diverse industries.
+
+                    He began his career with Kraft Foods in the US in 1993, and held various.....</p>
+                    <a href="" class="member-read-more">Read More</a>
+                    <div class="member-contact">
+                        <p>Email<a href="" class="member-email">Anil@morris-street.com</a>
+                        <p>Phone<a href="" class="member-phone">2963562626</a></p>
+                    </div> 
+                </div>  
+            </li>
+            <!-- Team Member Ends Here -->
+
+
+
+        </ul>
+
+    </div>
+</div>
 		</div>
 
 

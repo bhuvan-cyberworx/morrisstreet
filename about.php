@@ -330,6 +330,75 @@ a.member-read-more {
     object-position: left;
 }
 
+
+
+
+
+ul.specialization-list {
+    margin-top: 8%;
+}
+ul.specialization-list li {
+    width: 25%;
+    text-align: center;
+    padding: 0 5%;
+    float: left;
+    margin-bottom: 10%;
+}
+
+.spec-img {
+    height: 60px;
+    margin-bottom: 10%;
+
+}
+
+.spec-img img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.spec-title h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #333;
+    font-family: montserrat;
+}
+
+.client-section.container.module {
+    padding-bottom: 2%;
+}
+
+.contact-headline {
+    font-weight: 500;
+    font-family: montserrat;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.contact-detail {
+    font-weight: 500;
+    font-family: montserrat;
+    color: #F45B69;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.contact-box:nth-child(1) {
+    border-right: 2px solid #dfdfdf;
+}
+
+.contact-us-widget {
+    padding: 3% 0;
+}
+.contact-us-widget .main-title h2 {
+    margin-bottom: 5%;
+}
+
+
 </style>
 <div id="site-content" class="site-content">
 	<div class="segment active-segment" id="lab">
@@ -354,7 +423,7 @@ a.member-read-more {
 <div class="module text-center container fade-in ">
     
      <div class="main-title text-center ">
-        <h2>HOW WE INVEST.</h2>
+        <h2>Who are we?</h2>
         <p class="main-title-desc">
             Cras ut augue pretium, viverra nunc in, luctus odio.
         </p>
@@ -362,33 +431,15 @@ a.member-read-more {
 
     <div class="col-wrapper">
         <div class="ingress">
-            <p>Investment Banking provides expertise across products, industries and regions. Our team approach to client service enables our bankers to play an important role in building relationships and executing transactions.</p>
-        </div>
+            <p>Morris St. Advisors provides Investment Banking, Advisory, Corporate Finance and representative services to governments, corporations and individuals globally. </p>
 
-        <div class="">
+            <p class="simple-text">Morris St. Advisors is committed to the pursuit of excellence, and for this reason concentrate on sectors and markets in which it can excel.</p>
 
-            <ul class="feature-list list-unstyled">
-                <div class="feature-list-headline">
-                    <h2>Investment Banking’s key areas of focus include:</h2>
-                </div>   
-                <li>
-                    <span>Industries:</span> 
-                    Financial institutions, technology, media, healthcare, industrial, consumer and retail, natural resources, and public sector
-                </li> 
-
-                <li>
-                    <span>Products:</span> 
-                    Equity, leveraged finance, debt, financial advisory, and mergers and acquisitions
-                </li> 
-
-                <li>
-                    <span>Regions:</span> 
-                    Americas, Europe, Asia, and Japan
-                </li> 
-
-            </ul>
+            <p class="simple-text">Its influence and reputation flow from the quality of its people and the standing of its clients. This, combined with a culture that values pragmatic innovation, integrity and intellectual rigor above all else, has resulted in a reputation for ground breaking ideas that are practical & imaginative.</p>
 
         </div>
+
+        
     </div>
 
 
@@ -396,6 +447,60 @@ a.member-read-more {
 
 
 <div class="divider" style="background-image:url(http://startuplab.no/content/uploads/2016/09/tise-compressed.jpg); background-position: center 51.0727%;"></div>
+
+<div class="module text-center container fade-in ">
+    <div class="main-title text-center ">
+        <h2>Our Specialization’s</h2>
+        <p class="main-title-desc">
+            Cras ut augue pretium, viverra nunc in, luctus odio.
+        </p>
+    </div>   
+    <ul class="specialization-list list-unstyled">
+        
+        <li>
+            <div class="spec-img">
+                <img src="assets/images/specialization/photo.png" alt="">
+            </div>
+            <div class="spec-title">
+                <h2>Media & Entertainment</h2>
+            </div>
+        </li> 
+
+        <li>
+            <div class="spec-img">
+                <img src="assets/images/specialization/salary.png" alt="">
+            </div>
+            <div class="spec-title">
+                <h2>Investment Banking</h2>
+            </div>
+        </li> 
+
+        <li>
+            <div class="spec-img">
+                <img src="assets/images/specialization/wallet.png" alt="">
+            </div>
+            <div class="spec-title">
+                <h2>Trading & Investments</h2>
+            </div>
+        </li> 
+
+        <li>
+            <div class="spec-img">
+                <img src="assets/images/specialization/government.png" alt="">
+            </div>
+            <div class="spec-title">
+                <h2>Government Advisory</h2>
+            </div>
+        </li> 
+
+        
+
+    </ul>
+
+</div>
+
+<div class="divider "  style="background-image:url(http://startuplab.no/content/uploads/2016/09/tise-compressed.jpg); background-position: center 51.0727%; clear:both;"></div>
+
 
 <div class="client-section container module">
     <div class="main-title text-center">
@@ -506,7 +611,24 @@ a.member-read-more {
     </div>
 </div>
 
-<div class="divider" style="background-image:url(http://startuplab.no/content/uploads/2016/09/tise-compressed.jpg); background-position: center 51.0727%;"></div>
+<div class="contact-us-widget " style="background: #eee; ">
+    <div class="main-title text-center">
+            <h2>Get in touch</h2>
+            
+        </div>
+    <div class="row p0 text-center" >
+        <div class="contact-box text-center col-6">
+            <div class="contact-detail">info@morrist-street.com</div>
+            <div class="contact-headline">Email Us At </div>
+        </div>
+        <div class="contact-box text-center col-6">
+            <div class="contact-detail">+91 9569569569</div>
+            <div class="contact-headline">Call Us At</div>
+        </div>        
+    </div>
+</div>
+
+
 
 <div class="module container team-section">
     <div class="main-title text-center">
@@ -638,3 +760,6 @@ a.member-read-more {
 
     </div>
 </div>
+
+
+

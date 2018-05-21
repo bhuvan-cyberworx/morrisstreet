@@ -1,5 +1,5 @@
 <!-- Including header -->
-<?php include_once("includes/header.php"); ?>
+<?php include_once("includes/header-2.php"); ?>
 
 <!-- Inclduing menu file -->
 <?php include_once("includes/menu.php"); ?>

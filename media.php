@@ -157,7 +157,7 @@
     margin-bottom: 15px;
     font-size: 2.2rem;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 3.5px;
 }
 p.main-title-desc {
     font-size: 17px;
@@ -229,13 +229,14 @@ ul.client-list li img {
 }
 
 .ingress p {
-    font-size: 20px;
-    font-family: montserrat;
+    font-size: 24px;
+    font-family: serif;
     text-align: left;
     font-weight: 300;
     line-height: 1.8;
-    margin-bottom: 50px;
-    margin-top: 20px;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    letter-spacing: 0.5px;
 }
 
 .feature-list-headline h2 {
@@ -330,6 +331,52 @@ a.member-read-more {
     object-position: left;
 }
 
+
+p.simple-text {
+    font-size: 20px;
+    font-family: serif;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    letter-spacing: 0.5px;
+}
+
+.contact-headline {
+    font-weight: 500;
+    font-family: montserrat;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.contact-detail {
+    font-weight: 500;
+    font-family: montserrat;
+    color: #F45B69;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+.contact-box:nth-child(1) {
+    border-right: 2px solid #dfdfdf;
+}
+
+.contact-us-widget {
+    padding: 3% 0;
+}
+.contact-us-widget .main-title h2 {
+    margin-bottom: 5%;
+}
+
+.client-section.container.module {
+    padding-bottom: 3%;
+}
 </style>
 <div id="site-content" class="site-content">
 	<div class="segment active-segment" id="lab">
@@ -354,7 +401,7 @@ a.member-read-more {
 <div class="module text-center container fade-in ">
     
      <div class="main-title text-center ">
-        <h2>HOW WE INVEST.</h2>
+        <h2>Media & Entertainment World.</h2>
         <p class="main-title-desc">
             Cras ut augue pretium, viverra nunc in, luctus odio.
         </p>
@@ -362,29 +409,18 @@ a.member-read-more {
 
     <div class="col-wrapper">
         <div class="ingress">
-            <p>Investment Banking provides expertise across products, industries and regions. Our team approach to client service enables our bankers to play an important role in building relationships and executing transactions.</p>
+            <p>Morris St. Advisors provide’s a broad range of financial and strategic advice, services and products to clients of all types in the entertainment and related media businesses from their very earliest stages of development all the way through to maturity.</p>
         </div>
 
         <div class="">
 
             <ul class="feature-list list-unstyled">
-                <div class="feature-list-headline">
-                    <h2>Investment Banking’s key areas of focus include:</h2>
-                </div>   
-                <li>
-                    <span>Industries:</span> 
-                    Financial institutions, technology, media, healthcare, industrial, consumer and retail, natural resources, and public sector
-                </li> 
+                
+                <p class="simple-text">The group focuses on assisting clients in the development and structuring of all forms of business strategies and models, raising of capital and selection of and ongoing advice to management. They include clients’ industry specific requirements, such as their production, distribution and licensing arrangements, the expansion of their existing distribution and exhibition businesses, and the creation of new industry initiatives. </p>
 
-                <li>
-                    <span>Products:</span> 
-                    Equity, leveraged finance, debt, financial advisory, and mergers and acquisitions
-                </li> 
-
-                <li>
-                    <span>Regions:</span> 
-                    Americas, Europe, Asia, and Japan
-                </li> 
+                <p class="simple-text">
+                    We offer industry-leading financial products that have been tailored to the entertainment industry and draw upon the full spectrum of our world-wide resources, products and services.
+                </p>
 
             </ul>
 
@@ -399,7 +435,7 @@ a.member-read-more {
 
 <div class="client-section container module">
     <div class="main-title text-center">
-        <h2>Our Featured Clients</h2>
+        <h2>Our Media Partners</h2>
         <p class="main-title-desc mb8">
             Cras ut augue pretium, viverra nunc in, luctus odio.
         </p>
@@ -506,135 +542,24 @@ a.member-read-more {
     </div>
 </div>
 
-<div class="divider" style="background-image:url(http://startuplab.no/content/uploads/2016/09/tise-compressed.jpg); background-position: center 51.0727%;"></div>
+<!-- <div class="divider" style="background-image:url(http://startuplab.no/content/uploads/2016/09/tise-compressed.jpg); background-position: center 51.0727%;"></div> -->
 
-<div class="module container team-section">
+
+
+<div class="contact-us-widget " style="background: #eee; ">
     <div class="main-title text-center">
-        <h2>Our Team</h2>
-        <p class="main-title-desc mb8">
-            Cras ut augue pretium, viverra nunc in, luctus odio.
-        </p>
-    </div>
-    <div class="row">
-        <ul class="member-list list-unstyled">
-            <!-- Team Member Starts Here -->
-            <li class="member-box">
-                <div class="member-image">
-                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
-                </div>
-                <div class="member-info">
-                    <p class="member-name">Robert Knox</p>
-                    <p class="member-designation">Senior Advisor and Mentor</p>
-                    <p class="member-description">Mr. Robert Knox is the Senior Managing Director and Co-Founder of Cornerstone Equity Investors, L.L.C., a New York-based private equity firm.  The investment principals of Cornerstone have funded more than 100 companies through middle market buyouts and expansion financing since 1984. Mr. Knox has served on the boards of more than 25 public and private companies and not-for profit institutions.</p>
-                    <a href="" class="member-read-more">Read More</a>
-                    <div class="member-contact">
-                        <p>Email<a href="" class="member-email">robert@morris-street.com</a>
-                        <p>Phone<a href="" class="member-phone">9856965854</a></p>
-                    </div> 
-                </div>  
-            </li>
-            <!-- Team Member Ends Here -->
-
-            <!-- Team Member Starts Here -->
-            <li class="member-box">
-                <div class="member-image">
-                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
-                </div>
-                <div class="member-info">
-                    <p class="member-name">Rohit Tiwari</p>
-                    <p class="member-designation">Chief Executive Officer & Managing Director</p>
-                    <p class="member-description">More than 19 Years of experience in Investing and managing Global Trading & Capital Market Businesses. Prior to MSA Rohit was the Managing Director and CEO of AUM Capital, a Investment Bank with 200 employees and a pan India presence. 
-                    Prior to AUM Capital, Rohit served as the Managing Director and Global Head of Linear Equity Derivatives at ING Financial Services based in ....</p>
-                    <a href="" class="member-read-more">Read More</a>
-                    <div class="member-contact">
-                        <p>Email<a href="" class="member-email">Rohit@morris-street.com</a>
-                        <p>Phone<a href="" class="member-phone">9856965854</a></p>
-                    </div> 
-                </div>  
-            </li>
-            <!-- Team Member Ends Here -->
-
-            <!-- Team Member Starts Here -->
-            <li class="member-box">
-                <div class="member-image">
-                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
-                </div>
-                <div class="member-info">
-                    <p class="member-name">P Krishnamurthy</p>
-                    <p class="member-designation">Advisor </p>
-                    <p class="member-description">Mr. P. Krishnamurthy has worked as Vice-Chairman, JM Morgan Stanley. A Chartered Accountant from Kolkata, Mr. Krishnamurthy has an experience of nearly 33 years in Corporate Management and Strategy, Restructuring, Mergers & Acquisitions, International Business and Joint Ventures, Financial Management & Banking. His expertise includes managing ....</p>
-                    <a href="" class="member-read-more">Read More</a>
-                    <div class="member-contact">
-                        <p>Email<a href="" class="member-email">Krishnamurthy@morris-street.com</a>
-                        <p>Phone<a href="" class="member-phone">268989596</a></p>
-                    </div> 
-                </div>  
-            </li>
-            <!-- Team Member Ends Here -->
-
-            <!-- Team Member Starts Here -->
-            <li class="member-box">
-                <div class="member-image">
-                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
-                </div>
-                <div class="member-info">
-                    <p class="member-name">Nitin Bhatia</p>
-                    <p class="member-designation">Board Member and Head of Investment Banking & Capital Markets </p>
-                    <p class="member-description">Nitin currently is guiding MSA’s Investment Banking and Corporate finance ventures. Prior to MSA, Nitin was with Tata Capital's Investment Banking team where he was responsible for various sectors such as Infrastructure, Industrials, Hospitality and Metals and Mining. 
-
-                    Prior to Tata Capital Nitin was at Babcock and Brown’s Infrastructure Fund and....</p>
-                    <a href="" class="member-read-more">Read More</a>
-                    <div class="member-contact">
-                        <p>Email<a href="" class="member-email">Nitinbhatia@morris-street.com</a>
-                        <p>Phone<a href="" class="member-phone">123457990</a></p>
-                    </div> 
-                </div>  
-            </li>
-            <!-- Team Member Ends Here -->
-
-            <!-- Team Member Starts Here -->
-            <li class="member-box">
-                <div class="member-image">
-                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
-                </div>
-                <div class="member-info">
-                    <p class="member-name">Nitin Chaturvedi</p>
-                    <p class="member-designation">CFO & Head of Media & Entertainment Group</p>
-                    <p class="member-description">Over 14 Years of work experience in diversified industries.  
-
-                    Apart from his role as the Chief Financial Officer, Nitin also manages our critical and growing Media & Entertainment Group. In the company's brief history Nitin has successfully led the development of licensing, distribution and marketing of new productions with broadcasters and companies in India.....</p>
-                    <a href="" class="member-read-more">Read More</a>
-                    <div class="member-contact">
-                        <p>Email<a href="" class="member-email">Nitin@morris-street.com</a>
-                        <p>Phone<a href="" class="member-phone">2963562626</a></p>
-                    </div> 
-                </div>  
-            </li>
-            <!-- Team Member Ends Here -->
-
-             <!-- Team Member Starts Here -->
-            <li class="member-box">
-                <div class="member-image">
-                    <img src="http://startuplab.no/content/uploads/2016/09/RolvAssev-300x300.jpg" alt="">
-                </div>
-                <div class="member-info">
-                    <p class="member-name">Anil George</p>
-                    <p class="member-designation">Investment Banking & Capital Markets Advisory</p>
-                    <p class="member-description">With a background which includes strategic roles within MNC’s, Management Consultancy’s and Startups, Anil brings almost 20 years of global experience in business transformation, operations and technology management across diverse industries.
-
-                    He began his career with Kraft Foods in the US in 1993, and held various.....</p>
-                    <a href="" class="member-read-more">Read More</a>
-                    <div class="member-contact">
-                        <p>Email<a href="" class="member-email">Anil@morris-street.com</a>
-                        <p>Phone<a href="" class="member-phone">2963562626</a></p>
-                    </div> 
-                </div>  
-            </li>
-            <!-- Team Member Ends Here -->
-
-
-
-        </ul>
-
+            <h2>Get in touch</h2>
+            
+        </div>
+    <div class="row p0 text-center" >
+        <div class="contact-box text-center col-6">
+            <div class="contact-detail">info@morrist-street.com</div>
+            <div class="contact-headline">Email Us At </div>
+        </div>
+        <div class="contact-box text-center col-6">
+            <div class="contact-detail">+91 9569569569</div>
+            <div class="contact-headline">Call Us At</div>
+        </div>        
     </div>
 </div>
+
