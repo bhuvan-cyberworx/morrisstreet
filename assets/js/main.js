@@ -7,13 +7,10 @@ function backButtonFunction(){
     $('#back-button"').css('left','47.5%');
   }
 }
+
 window.addEventListener('scroll', function(){
   alert("working");
 });
-
-(function(){
- 
-})();
 
 $(document).ready(function(){
 	$('#nav-icon3').click(function(){
@@ -22,7 +19,6 @@ $(document).ready(function(){
 		$('#main-wrapper').toggleClass('shift-left');
 		$('#overlay-box').toggleClass('overlay-box-active');
     $('#nav-icon3').toggleClass('nav-icon3-open');
-
 	});
 
 	$('#press-relase-button').click(function(){
@@ -62,13 +58,14 @@ $(document).ready(function(){
     
 });
 
-// $('window').scroll(function(){
-//   alert("working");
-//   if(window.pageYOffset > 10){
-//     $('#back-button"').css('left','5%');
-//   }
-//   else{
-//     $('#back-button"').css('left','47.5%');
-//   }
-// });
+$('#main-wrapper').scroll(function(){
+  $('#back-button').css('left','5%');
+  if($('#main-wrapper').offsetTop > 10){
+    $('#back-button').css('left','5%');
+  }
+  else{
+    console.log($('#main-wrapper').offsetTop);
+    $('#back-button').css('left','88%');
+  }
+});
 
