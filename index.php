@@ -3,13 +3,17 @@
 
 <!-- Inclduing menu file -->
 <?php include_once("includes/menu.php"); ?>
-
 <div class="main-wrapper" id="main-wrapper">
 	<div class="float-button contact-button">
 		<a href="" class="">
 			Contact Us
 		</a>
 	</div>
+
+	<div class="back-button" id="back-button">
+	<span><i class="fas fa-arrow-left"></i></span>
+</div>
+
 
 
 
@@ -97,9 +101,7 @@
 				</div>
 				
 				<div class="text-wrapper" style="background-color: #f7f7f3">
-					<div class="back-button" id="back-button">
-						<span>Back</span>
-					</div>
+					
 					<div>
 						<h2>Lorem ipsum dolor sit amet</h2>
 						<p>consectetur adipiscing elit. Maecenas ac nibh nec erat imperdiet congue sit amet vel nisi. Ut id malesuada nibh. In venenatis sed dolor eget vulputate. Nam in metus arcu.</p>
@@ -110,6 +112,38 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="module text-center container fade-in ">
+    
+     <div class="main-title text-center ">
+        <h2>Media & Entertainment World.</h2>
+        <p class="main-title-desc">
+            Cras ut augue pretium, viverra nunc in, luctus odio.
+        </p>
+    </div>
+
+    <div class="col-wrapper">
+        <div class="ingress">
+            <p>Morris St. Advisors provide’s a broad range of financial and strategic advice, services and products to clients of all types in the entertainment and related media businesses from their very earliest stages of development all the way through to maturity.</p>
+        </div>
+
+        <div class="">
+
+            <ul class="feature-list list-unstyled">
+                
+                <p class="simple-text">The group focuses on assisting clients in the development and structuring of all forms of business strategies and models, raising of capital and selection of and ongoing advice to management. They include clients’ industry specific requirements, such as their production, distribution and licensing arrangements, the expansion of their existing distribution and exhibition businesses, and the creation of new industry initiatives. </p>
+
+                <p class="simple-text">
+                    We offer industry-leading financial products that have been tailored to the entertainment industry and draw upon the full spectrum of our world-wide resources, products and services.
+                </p>
+
+            </ul>
+
+        </div>
+    </div>
+
+
+</div>
 
 			<div style="height: 600px;"></div>
 		</div>
@@ -126,9 +160,9 @@
 				
 				
 				<div class="text-wrapper" style="background-color: #f7f7f3">
-					<div class="back-button" id="back-button">
+					<!-- <div class="back-button" id="back-button">
 						<span>Back</span>
-					</div>
+					</div> -->
 					<div>
 						<h2>INVESTMENT BANKING MADE EASY</h2>
 						<p>Aliquam fringilla bibendum eros id ultrices. Curabitur placerat id sapien sit amet scelerisque. Nulla id tellus dolor. Donec a lorem ac massa malesuada porta. Suspendisse sed ante non ligula convallis faucibus.</p>
@@ -153,9 +187,9 @@
 				</div>
 				
 				<div class="text-wrapper" style="background-color: #f7f7f3">
-					<div class="back-button" id="back-button">
+					<!-- <div class="back-button" id="back-button">
 						<span>Back</span>
-					</div>
+					</div> -->
 					<div>
 						<h2>STORY OF MORRIS STREET</h2>
 						<p>Aliquam fringilla bibendum eros id ultrices. Curabitur placerat id sapien sit amet scelerisque. Nulla id tellus dolor. Donec a lorem ac massa malesuada porta. Suspendisse sed ante non ligula convallis faucibus.</p>
@@ -177,9 +211,9 @@
 				</div>
 				
 				<div class="text-wrapper" style="background-color: #f7f7f3">
-					<div class="back-button" id="back-button">
+					<!-- <div class="back-button" id="back-button">
 						<span>Back</span>
-					</div>
+					</div> -->
 					<div>
 						<h2>THE BASICS OF COMMODITY TRADING</h2>
 						<p>Aliquam fringilla bibendum eros id ultrices. Curabitur placerat id sapien sit amet scelerisque. Nulla id tellus dolor. Donec a lorem ac massa malesuada porta. Suspendisse sed ante non ligula convallis faucibus.</p>
