@@ -552,7 +552,7 @@ Fertilizers, Coking Coal, Thermal Coal, and Diamonds with some exposure to Base 
 
 
 
-<div class="contact-us-widget " style="background: #eee; ">
+<div class="contact-us-widget module" style="background: #eee; ">
     <div class="main-title text-center">
             <h2>Get in touch</h2>
             

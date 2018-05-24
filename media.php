@@ -546,11 +546,11 @@ p.simple-text {
 
 
 
-<div class="contact-us-widget " style="background: #eee; ">
+<div class="contact-us-widget  module" style="background: #eee; ">
     <div class="main-title text-center">
             <h2>Get in touch</h2>
             
-        </div>
+    </div>
     <div class="row p0 text-center" >
         <div class="contact-box text-center col-6">
             <div class="contact-detail">info@morrist-street.com</div>

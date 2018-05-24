@@ -11,8 +11,6 @@
 	</a>
 </div>
 
-
-
 <div class="logo-box">
 	<a href="index.php"><img src="assets/images/logo.png" alt=""></a>
 </div>
