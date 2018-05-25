@@ -19,18 +19,18 @@
 </div>
 
 <div class="container contact-page">
-	<div class="contact-heading text-center ">
+	<!-- <div class="contact-heading text-center ">
 	    <h2>Want to come by for a friendly chat and a cup of very mediocre coffee? Feel free to get in touch with one of us to set up a time for a casual meeting!</h2>
-	</div>
+	</div> -->
 	<div class="contact-content row p0">
 		<div class="col-sm-4">
 			<div class="contact-box">
 				<div class="contact-title">
-					<h2>Morris St. Advisors Pvt. Ltd. (India)</h2>
+					<h2>Morris St. Advisors Pvt. Ltd. (Delhi Office)</h2>
 				</div>
 				<div class="contact-content">
 					<p>
-						Nitin Chaturvedi<br>
+						
 						A-57 Defense Colony
 						New Delhi, India, 110024
 						+91-11-2433-6778 o
@@ -42,11 +42,11 @@
 
 			<div class="contact-box">
 				<div class="contact-title">
-					<h2>Morris St. Advisors Pvt. Ltd. (India)</h2>
+					<h2>Morris St. Advisors Pvt. Ltd. (Mumbai Office)</h2>
 				</div>
 				<div class="contact-content">
 					<p>
-						Nitin Bhatia<br>
+						
 						11 Sea Breeze,
 
 						A.G. Khan Road
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 
-			<div class="contact-box">
+			<!-- <div class="contact-box">
 				<div class="contact-title">
 					<h2>Representative Office( Morris St. Advisors Ltd.)</h2>
 				</div>
@@ -75,7 +75,7 @@
 					</p>
 					<p class="email"><a href="">anil@morris-street.coms </a></p>
 				</div>
-			</div>
+			</div> -->
 
 
 		</div>
@@ -88,7 +88,7 @@
 			  <div class="form-group">
 			    
 			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-			    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+			    <small id="emailHelp" class="form-text text-muted"></small>
 			  </div>
 
 			  <div class="form-group">
@@ -126,9 +126,9 @@
 		<h4>Follow Us: </h4>
 	</div>
 	<ul class="social-list list-unstyled">
-		<li class="social-icon">
+		<!-- <li class="social-icon">
 			<a href=""><i class="fab fa-facebook-f"></i></a>
-		</li>
+		</li> -->
 		<li class="social-icon">
 			<a href=""><i class="fab fa-twitter"></i></a>
 		</li>
